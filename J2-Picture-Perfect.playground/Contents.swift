@@ -106,7 +106,9 @@ if pictureCount % squareRoot == 0 {    // Perfect square
     // Get dimensions
     var firstDimension = floor(squareRoot)
     
-    // Is the number of pictures we have prime? If so only one configuration possible: 1 x prime_value configuration
+    // Does the first dimension divide evenly into the picture count?
+    // When this is not true, keep reducing the dimension until it does
+    // divide evenly.  Then we can find the second dimension.
     while pictureCount % firstDimension != 0 {
         
         // Reset dimensions
