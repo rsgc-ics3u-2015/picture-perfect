@@ -70,7 +70,7 @@ a / floor(sqrt(a))
 a = 65000
 sqrt(a)
 floor(sqrt(a))  // low dimension
-a / floor(sqrt(a)) // hmm, this doesn't work for the high dimension
+a / floor(sqrt(a)) // hmm, this doesn't work for the high dimension, doesn't divide evenly into picture count
 floor(sqrt(a)) - 4
 a / (floor(sqrt(a)) - 4) // there we go, that divides evenly...
 
