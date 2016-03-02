@@ -116,7 +116,7 @@ if pictureCount % squareRoot == 0 {    // Perfect square
         
     }
     
-    // Now we must have a firstDimension that divides evenly into the second dimension, so get the second dimension
+    // Now we must have a firstDimension that divides evenly into the picture count, so get the second dimension
     var secondDimension = pictureCount / firstDimension
     
     // Get perimeter
